@@ -1,0 +1,71 @@
+------------------------------BT1----------------------------
+HUY@ADMIN MINGW64 ~
+$ git clone https://github.com/TONA0/24174600131_Duong_Thanh_Toan_bai_tap.git
+Cloning into '24174600131_Duong_Thanh_Toan_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+HUY@ADMIN MINGW64 ~
+$ cd 24174600131_Duong_Thanh_Toan_bai_tap
+
+HUY@ADMIN MINGW64 ~/24174600131_Duong_Thanh_Toan_bai_tap (main)
+$ touch caulenh.txt
+
+HUY@ADMIN MINGW64 ~/24174600131_Duong_Thanh_Toan_bai_tap (main)
+$ ls
+README.md  caulenh.txt
+
+-------------------------------BT2----------------------------------
+HUY@ADMIN MINGW64 ~/24174600131_Duong_Thanh_Toan_bai_tap (main)
+$ git add README.md
+
+HUY@ADMIN MINGW64 ~/24174600131_Duong_Thanh_Toan_bai_tap (main)
+$ git commit -m "sua ND BT2"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HUY@ADMIN.(none)')
+
+HUY@ADMIN MINGW64 ~/24174600131_Duong_Thanh_Toan_bai_tap (main)
+$ git config user.name "Duong Thanh Toan"
+
+HUY@ADMIN MINGW64 ~/24174600131_Duong_Thanh_Toan_bai_tap (main)
+$ git config user.email "dttoan.24174600131@sv.uneti.edu.vn"
+
+HUY@ADMIN MINGW64 ~/24174600131_Duong_Thanh_Toan_bai_tap (main)
+$ git commit -m "sua ND BT2"
+[main cda9919] sua ND BT2
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+HUY@ADMIN MINGW64 ~/24174600131_Duong_Thanh_Toan_bai_tap (main)
+$ git add caulenh.txt
+
+HUY@ADMIN MINGW64 ~/24174600131_Duong_Thanh_Toan_bai_tap (main)
+$ git commit -m "file caulenh"
+[main 8ac0f66] file caulenh
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 caulenh.txt
+
+HUY@ADMIN MINGW64 ~/24174600131_Duong_Thanh_Toan_bai_tap (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 899 bytes | 449.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/TONA0/24174600131_Duong_Thanh_Toan_bai_tap.git
+   7b59fdc..8ac0f66  main -> main
+
+--------------------------------BT3--------------------------------------
